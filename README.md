@@ -4,6 +4,38 @@
 
 This repository contains **Implementation Reference Version 2**, a separate hardened follow-on to the earlier runnable execution-finality implementation for secure and privacy-preserving AI interoperability.
 
+The primary hardened reference implementation is written in **Python** and provides executable implementations of Candidate Acts, protected validation, signed LAVRs, bounded execution capabilities, fresh Finality-Sink challenges, live requester proof, exact-effect binding, replay protection, strict cross-object verification, policy and revocation checks, and single-use finality enforcement.
+
+### Separate Go Reference Implementation
+
+A separate **independently runnable Go reference implementation** is also provided in this repository as a downloadable ZIP package.
+
+The Go implementation is not a wrapper around the Python implementation and does not require the Python runtime. It independently implements the principal challenge-bound execution-finality mechanisms, including deterministic CBOR processing, COSE_Sign1/Ed25519 verification, Candidate Act commitments, LAVR and execution-capability handling, fresh Finality-Sink challenges, live requester presentations, exact-effect verification, protected-channel binding, replay protection, revocation and policy-state verification, and concurrent single-use finality enforcement.
+
+Developers and reviewers can download and extract the Go package and run it independently using a standard Go toolchain.
+
+Typical verification commands are:
+
+```bash
+go test ./...
+go test -race ./...
+go vet ./...
+go run ./cmd/demo
+```
+
+A successful end-to-end demonstration terminates with:
+
+```text
+EFFECT_COMMITTED
+```
+
+The separate Go implementation is provided to support **independent implementation review and cross-language interoperability testing**, rather than relying solely on Python-specific runtime or serialization behavior.
+
+Deterministic Python-to-Go compatibility vectors are also provided for selected CBOR and COSE_Sign1/Ed25519 objects. These vectors allow developers to verify byte-level agreement between independently implemented security primitives.
+
+The current cross-language material should be understood as **reference implementation and interoperability evidence**, not as production certification, formal equivalence proof, IETF endorsement, or evidence of deployment on Apple, Android, Secure Enclave, TEE, or other production platform security boundaries.
+
+
 ### Predecessor implementation
 
 The predecessor repository is:
