@@ -849,7 +849,37 @@ Patent rights, including rights arising from pending, published, future, continu
 
 Where implementation of technology described or demonstrated in this repository would practice an enforceable patent claim, a separate patent license may be required.
 
-### Reference Implementation Does Not Equal Patent Permission
+## For Reference
 
-The purpose of the runnable implementation is to perm
+**Reference Implementation 1 — GitHub: Secure and Privacy-Preserving AI Interoperability for Third-Party Tools — Runnable Execution-Finality Implementation**
+https://github.com/sangmdas/Secure-and-Privacy-Preserving-AI-Interoperability-for-Third-Party-Tools
+
+**Reference Implementation 2 — GitHub: Hardened Challenge-Bound Execution Finality for AI Interoperability — Security-Hardened Follow-On Implementation**
+https://github.com/sangmdas/Hardened-Challenge-Bound-Execution-Finality-for-AI-Interoperability
+
+The second repository is a separate hardened follow-on to the original runnable implementation. It adds fresh Finality-Sink challenges, live challenge-bound requester proof, strict LAVR and capability verification, cross-object consistency checks, exact-effect binding, stronger freshness and temporal validation, replay/concurrency protections, protected execution-context binding, and an expanded adversarial test suite.
+
+**IETF Internet-Draft: Secure and Privacy-Preserving AI Interoperability under Article 6(7) of the European Digital Markets Act: An Execution-Finality Architecture**
+https://datatracker.ietf.org/doc/draft-das-execution-finality-ai-interoperability/
+
+The Internet-Draft has been submitted to the **Internet Engineering Task Force (IETF)** for technical discussion and consideration within the standards-development process.
+
+**Additional Technical Background — Zenodo: The Internet Solved Communication. It Never Solved Authority**
+https://zenodo.org/records/22082995
+
+This publication provides additional technical background, explanatory material, diagrams, use cases, and broader architectural context concerning the distinction between communication, computation, authorization, and final authority.
+
+### Authors/Creators
+
+* **Sangam Das**
+
+The two GitHub repositories provide runnable reference implementations of the proposed execution-finality architecture. The first repository demonstrates the initial end-to-end implementation, while the second provides a more adversarially hardened realization of the same architectural invariant.
+
+Together with the Internet-Draft and the Zenodo technical background publication, these materials describe how third-party AI systems may participate in device and platform workflows without receiving unrestricted final-effect authority, by separating the ability to request or prepare an operation from the authority to make that operation externally effective.
+
+The materials are provided for technical evaluation, reproducibility, interoperability analysis, security review, research, and standards discussion. They are not presented as IETF endorsement, production-platform certification, Apple/Android implementation, or regulatory-conformance certification.
+
+
+
+
 
