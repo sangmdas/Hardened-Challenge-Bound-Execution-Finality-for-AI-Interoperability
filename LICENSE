@@ -1,8 +1,36 @@
-Copyright 2026 Sangam Kumar Das. All rights reserved.
+## License, Copyright, and Patent Rights
 
-Provided for inspection, security review, interoperability evaluation, and
-non-production testing only. No commercial implementation, distribution,
-derivative-work, or patent licence is granted. Separate written licensing
-terms may be made available by the rights holder.
+Copyright © 2026 Sangam Kumar Das. All rights reserved except as expressly licensed below.
 
-THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.
+### Creative Commons License
+
+Except for material subject to the IETF Trust Legal Provisions or third-party rights, the copyrightable repository materials designated by the author for public reuse are made available under the:
+
+**Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**
+
+https://creativecommons.org/licenses/by-nc/4.0/
+
+Under that license, the covered material may be copied, redistributed, adapted, and used for research, education, technical evaluation, interoperability analysis, standards discussion, academic study, and other permitted non-commercial purposes, provided that appropriate attribution is given and the applicable license conditions are followed.
+
+Commercial use is not authorized by the CC BY-NC 4.0 license.
+
+### Patent Rights Are Not Licensed
+
+**The CC BY-NC 4.0 license is a copyright license only. It does not grant any patent license.**
+
+Nothing in this repository, including publication of source code, reference implementations, test vectors, schemas, algorithms, diagrams, architectural descriptions, Internet-Draft source files, benchmark material, examples, or documentation, shall be interpreted as:
+
+* granting an express or implied license under any patent or patent application;
+* waiving, abandoning, dedicating, disclaiming, exhausting, or otherwise surrendering any patent right;
+* granting a covenant not to sue;
+* authorizing commercial implementation of technology covered by an applicable patent claim;
+* representing that implementation of the material is free of third-party or author-held patent rights; or
+* creating an estoppel against enforcement of applicable patent rights.
+
+Patent rights, including rights arising from pending, published, future, continuation, divisional, national-phase, regional, or granted patent applications relating to the disclosed technology, are expressly reserved to the extent permitted by applicable law.
+
+Where implementation of technology described or demonstrated in this repository would practice an enforceable patent claim, a separate patent license may be required.
+
+### Reference Implementation Does Not Equal Patent Permission
+
+The purpose of the runnable implementation is to perm
