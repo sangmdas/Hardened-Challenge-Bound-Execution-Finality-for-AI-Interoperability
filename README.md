@@ -865,7 +865,8 @@ https://datatracker.ietf.org/doc/draft-das-execution-finality-ai-interoperabilit
 The Internet-Draft has been submitted to the **Internet Engineering Task Force (IETF)** for technical discussion and consideration within the standards-development process.
 
 **Additional Technical Background — Zenodo: The Internet Solved Communication. It Never Solved Authority**
-https://zenodo.org/records/22082995
+https://zenodo.org/records/22082995. and 
+https://zenodo.org/records/21467217
 
 This publication provides additional technical background, explanatory material, diagrams, use cases, and broader architectural context concerning the distinction between communication, computation, authorization, and final authority.
 
